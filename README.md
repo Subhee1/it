@@ -1,3 +1,4 @@
 # Subhees Wissen über Informationstechnologie
 
-* Link zu uebung_markdown.md
+* [Übung zu Markdown](docs/uebung_markdown.md)
+

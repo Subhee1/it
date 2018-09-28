@@ -1,21 +1,7 @@
-*Hallo ,ich bin Subhee*
+# Übung Markdown
 
-Das ist mein Email <subhee.sheko@gmail.com>
+## Bilder einbinden
 
-_Meine Alter ist_ ~~25~~ 24 jahre
+![Übung zu Markdown](images/myScreenshot.png)
 
-----
-> Das ist probe
-
-* Apfel
-lll
-* Orang
-
-* Banane
-
-1. Subhee
-2. Reeber
-3. Pierre
-4. test
-
- [ Markdown logo ]
+dfdsfd
