@@ -27,6 +27,6 @@ root Benutzer Lautet folgende.
 >Diese neue Datei haben wir als Root angelegt.
 ![](images/Subhee9.png)
 
-dds
+
 
 
