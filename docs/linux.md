@@ -40,4 +40,16 @@ root Benutzer Lautet folgende.
 
 ![Das ist ein Link](images/Subhee11.png)
 
-zdd
+## greb
+
+* greb lasst sichDatein nach bestimmten Textstücken durchsuchen.
+Ich habe eine Datei schon angelegt ,die hei?t nur `p` und ich lese sie mit cat .Mann bekommt inhalt.
+
+![Das ist ein Link](images/Reeber.png)
+
+* wenn man diese Befehl `greb -i pierre*` benutzt bekommt man all Pierre und **i** bedeutet ignoriere groß und klein Schreibsschrieft.
+
+* wenn ich nach Pierre Suche genau , kann ich `greb` verwenden.
+![Das ist ein Link](images/Reeber2.png)
+
+* Man kann mit diesem Befehl  `find -name "*.html" | xargs grep -i pierre ` nach **html** in ganz system suchen.
