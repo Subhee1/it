@@ -30,6 +30,13 @@ root Benutzer Lautet folgende.
 >Diese neue Datei haben wir als Root angelegt.
 ![](images/Subhee9.png)
 
+## alias
 
+* Mit diesem Befehl kann mann lange zeil abkurzen .Damit man nicht viel schreibt und es wird schnell. Es ist einfach **Zeit** nur difinieren statt **"date +%H:%M:%S"**
 
+![Das ist ein Link](images/Subhee10.png)
+
+* Hier gibt man nur Zeit und zeigt Zeit.
+
+![Das ist ein Link](images/Subhee11.png)
 
