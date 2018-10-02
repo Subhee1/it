@@ -86,5 +86,26 @@ Ich habe eine Datei schon angelegt ,die hei?t nur `p` und ich lese sie mit cat .
  | 4 | für Lesen         |
 
  > Beizpiel chmod 744 dateiname  **entspricht**  chmod a+r,u+wrx Der Besitzer kann lesen,schreiben und Ausführen .und Anderen können nur lessen.
- 
+
  ![Das ist ein Link](images/Subhee24.png)
+
+## zip, unzip
+
+* mit **zip** können mehreren Datein zu einem **Komprimierten**  
+Datei-Archiv gebündelt.
+
+* Mit unzip Dateiname wird die Datei wieder entpackt.
+
+|  Erklärung |   Befehl             |
+| :----------| :-----               |
+|Datein als zip archiv komprimieren |`zip Archiv.zip datei1,datei2,datei3,..`|
+|Kompletten Ordner komprimieren | `zip -r Archiv.zip Ordner1,Ordner2` |
+|zip Archiv entpacken | `unzip -1 Archiv.zip` |
+
+![Das ist ein Link](images/Subhee25.png)
+
+![](images/Subhee26.png)
+
+* entpacken mit unzip.
+
+![Das ist ein Link](images/Subhee27.png)
