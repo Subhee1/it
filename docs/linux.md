@@ -53,3 +53,38 @@ Ich habe eine Datei schon angelegt ,die hei?t nur `p` und ich lese sie mit cat .
 ![Das ist ein Link](images/Reeber2.png)
 
 * Man kann mit diesem Befehl  `find -name "*.html" | xargs grep -i pierre ` nach **html** in ganz system suchen.
+ 
+ ## chmod
+
+ 1. Methode **ugoa**
+
+  | U | Steht für den Bezitzer (User) |
+  | :------- | :--------------------- |
+  | O | Steht für Anderen (other)     |
+  | A | Steht für (alle)              |
+  | g | Steht für die (Gruppe)        |
+
+* Dieses Befehl gibt den Datein Recht.
+
+![Das ist ein Link](images/Subhee.png22.png)
+
+> Aie Rechte **r** Steht für `lessen`, **w** steht für `schreiben`,**x**  steht für `Ausführen`  
+
+> Beispiel  Wir wollen dem Besitzer Schreibberechte nehmen . Lautet so `chmod u-w dateiname`Nachder Ausführung kann dem Besitzer nur lesen. bleibt **r** Recht. 
+
+![Das ist ein Link](images/Subhee23.pn.png)
+
+> Man kann auch mit plus die Recht wieder geben  .Das Befehl lautet folgende `hmod u+w dateiname`
+
+2. Methode **numerische**
+
+* Es gibt für jeder Recht ein Zahl .
+
+ | 1 |   für Ausführen   | 
+ | :------| :-----       |
+ | 2 | für Schreiben     |
+ | 4 | für Lesen         |
+
+ > Beizpiel chmod 744 dateiname  **entspricht**  chmod a+r,u+wrx Der Besitzer kann lesen,schreiben und Ausführen .und Anderen können nur lessen.
+ 
+ ![Das ist ein Link](images/Subhee24.png)
