@@ -6,11 +6,9 @@ sadas
 
 ## Folder von Windows mit Linux verbinden
 
-Wenn man Z.B Dokument Folder oder irgendein von windwos mit linux verbinden
-
 > **Hinweise**  Das könnte gefährlich sein, wenn man etwas mi ubuntu falsch macht oder man löscht wird unser Folder von Windows auch weg.
 
-Folgende Schritte ausführen:
+Wenn man z.B. ein Verzeichnis von Windows mit linux verbinden möchte, dann folgende Schritte ausführen:
 
 1. man kommt in linux Ubuntu .Es gibt unten recht diese Folder man klickt darau  .![man soll auf gezeigt Folder klicken und der Pfad des Floders von Windws geben](docs/images/2018-10-01_09_47_50-.png)
 2. Nachdem  Klicken bekommt man solche Fenster
