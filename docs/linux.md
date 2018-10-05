@@ -138,3 +138,25 @@ Datei-Archiv gebündelt.
 4.man kann das CD inhalt anzeigen mit diesem Befehl ` ls /mnt/name des Ordner ` 
 
 ![Das ist ein Link ](images/Subhee.png111.png)
+
+# xargs 
+
+* Mit `xargs` können Ergebnisse eines shell_Programms als Argumente eines anderen shell_Programms verwendet werden .Dies ist beispielsweise bei der Kombination von **find** und **grep** nüzlich,um die von **find** gefundenen Dateinamen nicht unmitelbar als Eingabe Test, sondern als Zieldatein nach bestimmten Mustern zu durchsuchen.
+> Das untere Bild zeigt uns , dass wir ein  ordener als **test** angelegt und habe mit paaren Zeilen ausgefühlt.Dann können wir mit **find** und **grep** probieren 
+
+![Das ist ein Link](images/Subhee123.png)
+
+* Ich habe hier zwei Befehl benutzen, die beiden geben gleiche Ergebnisse
+`find ./ -name "*.Subhee" -type f | xargs` 
+`find ./ -name "*.Subhee" -type f `
+
+![Das ist ein Link](images/Subhee124.png)
+
+* Aber wenn Man  nach einer bestimmten sache suchen möchte, verwendet mann dieses Befehl. `find ./ -name "*.Subhee" _type f |xargs grep besser` Hier suchen wir nur Zeilen Mit diesm Wort **besser**
+
+![Das ist ein Link](images/Subhee125.png)
+
+* Man kann auch mit diesem Befehl die inhalt dieses Verzeichnis löschen. 
+`find ./ _name "*.Subhee" _type f | xargs grep rm`
+
+![Das ist ein Link](images/Subhee126.png)
