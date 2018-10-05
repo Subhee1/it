@@ -64,6 +64,8 @@ Ich habe eine Datei schon angelegt ,die hei?t nur `p` und ich lese sie mit cat .
   | A | Steht für (alle)              |
   | g | Steht für die (Gruppe)        |
 
+
+
 * Dieses Befehl gibt den Datein Recht.
 
 ![Das ist ein Link](images/Subhee.png22.png)
@@ -109,3 +111,30 @@ Datei-Archiv gebündelt.
 * entpacken mit unzip.
 
 ![Das ist ein Link](images/Subhee27.png)
+
+ ## mount 
+
+ Bevor man sich mit dem Begrief **monut** muss man sich mit Dateienverwaltung unter Linx beschäftigen.Linux hat **nur ein c:\ , was bei linux root ist** Hingegen bei Windows gibt es ` "C:\" , "D:\" ," E:\" ` .
+
+ ![Das ist ein Link](images/Reeber111.png)
+
+ > **Bild Erklärung**: **bin** Verzeichnis bfinden sich nur die wichtige Programme, die immer von überall verfügbar sein  mussen
+ Z.B (Shell)
+ **boot** Verzeichnis hier sind Datein drin ,was man braucht ,um die Rechner hochzufahren
+**dev** Verzeichnis ehr eine Schnittstelle zu Hardwaressystem.
+**etc** Verzeichnis hier findet man alle wichtige Konfigurationsdatein  mit dem man System anpassen kann.
+**lib** Verzeichnis Man soll mit diesem Verzeichnis vorsichtig sein, darin befindet sich die Grundlagen Funktionsbibliothek 
+**mnt** Verzeichnis In diesem Verzeichnis sind Temporer eingehangene Dateissysteme.
+**opt** Verzeichnis in dem sämtliche Zusatzprogramme installiert werden, die nicht unter eine freien Lizenz stehen. Der Hauptvorteil gegenüber einer Installation im eigenen **Homeverzeichnis** ist die Möglichkeit ;Systemweit(durch alle auf dem Rechner vorhandenen Benutzer )auf die dort installierten Programme zugreifen zu können.
+
+* Beispiel **CD** mounten.
+
+1. Man muss als root anmelden.Damit man mit mount arbeiten kann.
+
+2. man soll einen Ordner in `mnt` anlegen.Das Befehl lautet folgende `mkdir /mnt/monut_CD`
+
+3. man muss mit diesem Befehl ` mount /dev/cdrom /mnt/mount_cdrom`
+
+4.man kann das CD inhalt anzeigen mit diesem Befehl ` ls /mnt/name des Ordner ` 
+
+![Das ist ein Link ](images/Subhee.png111.png)
