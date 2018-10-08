@@ -139,7 +139,7 @@ Datei-Archiv gebündelt.
 
 ![Das ist ein Link ](images/Subhee.png111.png)
 
-# xargs 
+## xargs 
 
 * Mit `xargs` können Ergebnisse eines shell_Programms als Argumente eines anderen shell_Programms verwendet werden .Dies ist beispielsweise bei der Kombination von **find** und **grep** nüzlich,um die von **find** gefundenen Dateinamen nicht unmitelbar als Eingabe Test, sondern als Zieldatein nach bestimmten Mustern zu durchsuchen.
 > Das untere Bild zeigt uns , dass wir ein  ordener als **test** angelegt und habe mit paaren Zeilen ausgefühlt.Dann können wir mit **find** und **grep** probieren 
@@ -160,3 +160,7 @@ Datei-Archiv gebündelt.
 `find ./ _name "*.Subhee" _type f | xargs grep rm`
 
 ![Das ist ein Link](images/Subhee126.png)
+
+## Ein Packet entpacken.
+
+* Mit diesem Befehl `tar -xvf Datei.tar.gz` kann man ein Packet entpacken .
