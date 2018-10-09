@@ -20,4 +20,13 @@
 | char          | Nur ein Zeichen oder Buchstabe        |
 | string        |     man kann  mit ein Text Schreiben  |
 | boolean       |  false und true                       |
-kkk
+
+# Assignment Operators
+|Operators  | Erklärung                                                  |
+| :-----    | :------                                                    |
+| **=**     |    Nummer1 = 2 oder Subhee = Student                       |
+| **+=**    |  Nummer1 = 5 und Nummer2 = 10 (Nummer1 **+=** Nummer2 = 15)|
+|**-=**     | Nummer1 = 5 und Nummer2 = 10 (Nummer1 **-=** Nummer2 = 5)  |
+|***=**     | Nummer1 = 5 und Nummer2 = 10  (Nummer1 ***=** Nummer2 = 50)|
+|**/=**     | Nummer1 = 20 (Nummer1  **/=** 5 = 4)                       |
+|**%=**     | Nummer1 = 10 (Nummer1 **%=** 3 = 1 Nur bleint die Rest)    |
