@@ -6,7 +6,7 @@
 
 ![Das ist ein Link](images/Subhee.png1113.png)
 
-# Java Data Type
+## Java Data Type
 
 * Was ist Data Type ? Data  Type  sind  Typen, die eigen speicher Platz haben, je nach Typen. die man verwendet.
 
@@ -21,7 +21,8 @@
 | string        |     man kann  mit ein Text Schreiben  |
 | boolean       |  false und true                       |
 
-# Assignment Operators
+## Assignment Operators 
+
 |Operators  | Erklärung                                                  |
 | :-----    | :------                                                    |
 | **=**     |    Nummer1 = 2 oder Subhee = Student                       |
