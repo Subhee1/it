@@ -10,6 +10,7 @@
 
 * Was ist Data Type ? Data  Type  sind  Typen, die eigen speicher Platz haben, je nach Typen. die man verwendet.
 
+> **Hinweise** : Wenn man **long** variabel benutzt und der Variabel ist gro 
 | Data Type     |Kapazität                 |
 | :------------ | :-----------             |
 | byte          | von -128 bis 127         |
@@ -31,3 +32,5 @@
 |***=**     | Nummer1 = 5 und Nummer2 = 10  (Nummer1 ***=** Nummer2 = 50)|
 |**/=**     | Nummer1 = 20 (Nummer1  **/=** 5 = 4)                       |
 |**%=**     | Nummer1 = 10 (Nummer1 **%=** 3 = 1 Nur bleint die Rest)    |
+
+## 
