@@ -96,3 +96,24 @@ Das Ergebnis ist **true**
 wenn int a = 5 und int b = 5;
 System.out.println(a == d);
 Das Ergebnis ist **true**
+
+## Conditional Operator
+
+  |         |    And   |          |
+  | :------ | :--------| :-----   |
+  | true    |  true    | **true** |
+  | false   | true     |   false  |
+  | true    | false    |  false   |
+  | false   | fals     | false    |
+
+|         |    OR     |          |
+| :------ | :------   | :-----   |
+| true    |  true     | true     |
+| false   | true      | true     |
+| true    | false     | true     |
+| false   | false     | **false**|
+
+|           |  NOT     |       |
+| :----     | :-----   | :-----|
+| **NOT**   |  true    | false |
+| **NOT**   | false    | true  |
